@@ -1,0 +1,529 @@
+<html>
+<head>
+	<title>Samira Huber - Fotografie</title>
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Quicksand" rel="stylesheet">
+	
+	<meta name="google-site-verification" content="Q72sWc7e1WbZkNtCxUNjg" />
+	<meta name="description" content="Hochzeitsbilder, Familienfotos oder einfach ein neues Bewerbungsbild: Mit neuen und spannenden Umsetzungen werde ich Sie nicht enttäuschen und Ihnen tolle Bilder von ein paar gemeinsamen Stunden liefern.">
+	<meta name="keywords" content="Fotografie,Photography,Baden,Karlsruhe,Fotograf,Hochzeit,Wedding,Geburtstag,Fotostudio,Kamera,Familienfoto,Paarshooting,Fotoshooting,Foto,Bilder,Baden,Karlsruhe,Gaggenau,top,gut,Samira Huber,Samira">
+</head>
+<style>
+
+#goUp {
+	display: none;
+	position: fixed;
+	opacity: .5;
+	bottom: 1em;
+	right: 1em;
+	z-index: 99;
+	border: none;
+	outline: none;
+	color: black;
+	cursor: pointer;
+	padding: 1vw;
+}
+
+#goUp:hover {
+	opacity: .9;
+}
+#mail {
+	display: block;
+	position: fixed;
+	top: 1em;
+	left: 1em;
+	opacity: .5;
+	z-index: 99;
+	border: none;
+	outline: none;
+	color: white;
+	cursor: pointer;
+	padding: 1vw;
+	border-radius: 1vw;
+	text-decoration: none;
+}
+#mail:hover {
+	opacity: .7;
+}
+#insta {
+	display: block;
+	position: fixed;
+	top: 1em;
+	left: 5em;
+	opacity: .5;
+	z-index: 99;
+	border: none;
+	outline: none;
+	color: white;
+	cursor: pointer;
+	padding: 1vw;
+	border-radius: 1vw;
+	text-decoration: none;
+}
+#insta:hover {
+	opacity: .7;
+}
+
+.button:hover {
+	opacity: .8;
+}
+
+#aboutMe {
+	display: block;
+	position: fixed;
+	top: 1em;
+	left: 9em;
+	opacity: .5;
+	z-index: 99;
+	border: none;
+	outline: none;
+	color: white;
+	cursor: pointer;
+	padding: 1vw;
+	border-radius: 1vw;
+	text-decoration: none;
+}
+
+#aboutMe:hover {
+	opacity: .8;
+}
+
+.register {
+		color: AAAAAA;
+		text-align: center;
+		letter-spacing: .8vw;
+		font-family: Trebuchet MS,Courier New, Times New Roman;
+		font-size: 2.4vw;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	.register:hover {
+		color: DDDDDD;
+	}
+	.submenu {
+		color: 888888;
+		text-align: center;
+		letter-spacing: .8vw;
+		font-family: Trebuchet MS,Courier New, Times New Roman;
+		font-size: 1.4vw;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	.submenu:hover {
+		color: DDDDDD;
+	}
+
+	.image {
+		display: inline-block;
+		width: 100%;
+
+		-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 3s; /* Firefox < 16 */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+         -o-animation: fadein 3s; /* Opera < 12.1 */
+            animation: fadein 3s;
+	}
+
+	@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+	.modal {
+	    display: none; 
+	    position: fixed;
+	    z-index: 1;
+	    padding-top: 5em;
+	    left: 0;
+	    top: 0;
+	    width: 100%; /* Full width */
+	    height: 100%; /* Full height */
+	    overflow: auto; /* Enable scroll if needed */
+	    background-color: rgb(0,0,0); /* Fallback color */
+	    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+		overflow-y:scroll;
+	}
+
+	.modal-content {
+		font-family: 'Quicksand', sans-serif;
+	    background-color: #fefefe;
+	    margin: auto;
+	    padding: 20px;
+	    border: 1px solid #888;
+	    width: 80%;
+	}
+	.text {
+		color: DDDDDD;
+		text-align: center;
+		letter-spacing: .4vw;
+		font-family: Trebuchet MS,Courier New, Times New Roman;
+		font-size: 1.65vw;
+	}
+	.close {
+	    color: #aaaaaa;
+	    float: right;
+	    font-size: 28px;
+	    font-weight: bold;
+	}
+
+		.header {
+		color:white;
+		text-align: center;
+		font-family: Trebuchet MS, Prestige Elite Std, Comic Sans MS;
+		width: 100%;
+		color: 888888;
+		height: 5vw;
+		letter-spacing: .5vw;
+	}
+
+	table {
+		width: 100%;
+	}
+
+	li {
+  		float: left;
+		width: 33.3%;
+		text-align: center;
+	}
+
+	td {
+		width: 10%;
+	}
+
+
+</style>
+<body style="background-color:000000">
+
+	<a href="#top" id="goUp" class="scroll" title="Go to top"><img src="Bilder/up.png" style="width: 5em;"></a>
+	<a href="mailto:MsSamiraPhotos@gmail.com" id="mail"><img src="Bilder/contact1.png" style="width: 4em;" ></a>
+	<a href="https://www.instagram.com/s4.m1.r4/" id="insta"><img src="Bilder/contact2.png"  style="width: 4em"></a>
+	<a id="aboutMe"><img src="Bilder/info.png" style="width: 4em" /></a>
+
+
+	<img src="Bilder/Titelbild.jpg" alt="Titelbild" width="100%" id="top" />
+
+
+	<div style="width: 100%">
+			<div class="text"> - GERMANY - 20 YEARS - PHOTOGRAPHER - KARLSRUHE -</div>
+	</div>
+	<table style="width:100%; height:5vw;"><tr><td></td></tr></table>
+
+<!-- #region MENU-->
+	<ul>
+		<li>
+			<a href="#portraits" class="register scroll">MENSCHEN</a>
+			<div><a href="#wedding" class="submenu scroll">HOCHZEIT</a></div>
+			<div><a href="#paar" class="submenu scroll">PAARFOTOGRAFIE</a></div>
+			<div><a href="#einzel" class="submenu scroll">PORTRAITS</a></div>
+			</li>
+		<li>
+			<a href="#manipulation" class="register scroll">MANIPULATION</a>
+		</li>
+		<li>
+			<a href="#photography" class="register scroll">LANDSCHAFT</a>
+			<div><a href="#deutschland" class="submenu scroll">DEUTSCHLAND</a></div>
+			<div><a href="#kanada" class="submenu scroll">KANADA</a></div>
+			<div><a href="#england" class="submenu scroll">ENGLAND</a></div>
+		</li>
+	</ul>
+<!-- #endregion -->
+	
+	<table style="width:100%; height:5vw;"><tr><td></td></tr></table>
+	
+	<div class="header" id="wedding">HOCHZEIT</div>
+	<table cellspacing="1px" cellpadding="1px" tabindex="-1" id="hc"></table>
+	<table style="width:100%; height:10vw;"><tr><td></td></tr></table>
+
+	<div class="header" id="paar">PAARFOTOGRAFIE</div>
+	<table width="100%" cellspacing="1px" cellpadding="1px" tabindex="-1" id="pc"></table>
+	<table style="width:100%; height:10vw;"><tr><td></td></tr></table>
+	
+	<div class="header" id="einzel">PORTRAITS</div>
+	<table width="100%" cellspacing="1px" cellpadding="1px" tabindex="-1" id="ec"></table>
+	<table style="width:100%; height:10vw;"><tr><td></td></tr></table>
+	
+	<div class="header" id="manipulation">MANIPULATION</div>
+	<table width="100%" cellspacing="1px" cellpadding="1px" tabindex="-1" id="mc"></table>
+	<table style="width:100%; height:10vw;"><tr><td></td></tr></table>
+		
+	<div class="header" id="deutschland">DEUTSCHLAND</div>
+	<table width="100%" cellspacing="1px" cellpadding="1px" tabindex="-1" id="dc"></table>
+	<table style="width:100%; height:10vw;"><tr><td></td></tr></table>
+
+	<div class="header" id="kanada">KANADA</div>
+	<table width="100%" cellspacing="1px" cellpadding="1px" tabindex="-1" id="kc"></table>
+	<table style="width:100%; height:10vw;"><tr><td></td></tr></table>
+		
+	<div class="header" id="england">ENGLAND</div>
+	<table width="100%" cellspacing="1px" cellpadding="1px" tabindex="-1" id="enc"></table>
+	</br></br>
+	
+	<!-- #region MODALS-->
+
+	<!--about Me Modal-->
+	<div id="aboutModal" class="modal">
+			<!-- Modal content -->
+			<div class="modal-content" style="text-align: center; font-family: 'Indie Flower', cursive;" >
+			  <span class="close2">&times;</span>
+			  <h1>&Uuml;ber mich</h1>
+				<p>Hallo! Ich bin Samira Huber und komme aus Gaggenau/Karlsruhe. Meine Begeisterung f&uuml;r Fotografie begann damit, dass ich zu meiner Kommunion meine erste Digitalkamera geschenkt bekommen habe! Ich probierte viel aus und eignete mir so meinen eigenen Style an. Mit 15 habe ich dann mein gespartes Geld f&uuml;r meine neue Spiegelreflexkamera (Canon EOS 700D) ausgegeben. Ich brachte mir Adobe Photoshop und Adobe Lightroom bei und entdeckte meine Begeisterung f&uuml;r Bildmanipulation (wer h&auml;tte das gedacht :D). Ich konnte die letzte Zeit Erfahrungen auf Hochzeiten und Geburtstagen sammeln und m&ouml;chte auch weiter die tollen Momente festhalten.</p> 
+				<p>Alle Bilder die ich von euch mache bekommt ihr in digitaler Form. Alle Fotoshootings sind auf Spendenbasis.</p>
+			
+				<p>Das Tolle an der Fotografie ist, dass man die Sch&ouml;nheit eines Momentes einfangen kann, die f&uuml;r Andere unsichtbar ist!</p>
+			</div>
+		  </div>
+
+	<!-- The Modal -->
+		<div id="myModal" class="modal">
+		<!-- Modal content -->
+		<div class="modal-content" style="text-align: center;">
+		  <span class="close">&times;</span>
+		  <p><h1>Impressum</h1>
+	  
+	  GESETZLICHE ANBIETERKENNUNG:<br><br>
+	  
+	  Samira Huber<br>
+	  76571 Gaggenau<br>
+	  Deutschland<br><br>
+	  
+	  E-Mail: MsSamiraPhotos@gmail.com<br>
+	  
+	  INHALTLICH VERANTWORTLICHER GEM&Auml;SS &sect; 55 RSTV:<br>
+	  
+	  Frau Samira Huber, 76571 Gaggenau, Deutschland<br><br>
+	  
+	  FOTOGRAFIEN<br>
+	  
+	  Alle eingebundenen Fotos wurden aufgenommen von Samira Huber, falls nicht anderweitig vermerkt und unterliegen dem Urheberrecht. Jegliche Nutzung bedarf der schriftlichen Zustimmung.
+	  <br><br>
+	  HAFTUNGSHINWEIS UND NUTZUNGSBEDINGUNGEN<br>
+	  
+	  Inhalt und Gestaltung unserer Internetseiten sind urheberrechtlich gesch&uuml;tzt. Vervielf&auml;ltigung bzw Speicherung nur mit schriftlicher Genehmigung. Dies gilt auch f&uuml;r die Aufnahme in elektronische Datenbanken und Vervielf&auml;ltigung auf elektronischen Datentr&auml;gern.<br>
+	  
+	  Wir machen Sie darauf aufmerksam, dass auf den von uns angebotenen Internetseiten Worte oder Zeichen marken-, patent- oder warenzeichen- rechtlichem Schutz unterliegen k&ouml;nnen. Soweit diese den Rechten anderer unterliegen, verwenden wir diese ausschlie&szlig;lich zur Information und keinesfalls zur Herbeif&uuml;hrung eines Vorteils.<br>
+	  
+	  Trotz sorgf&auml;ltiger inhaltlicher Kontrolle &uuml;bernehmen wir keine Verantwortung f&uuml;r externe Informationen oder Links zu Internet-Seiten Dritter. F&uuml;r den Inhalt verlinkter Seiten sind ausschlie&szlig;lich deren Betreiber verantwortlich.<br>
+	  
+	  Wir haben bei der Erstellung unserer Internetseiten gr&ouml;&szlig;tm&ouml;gliche Sorgfalt walten lassen. Dennoch kann f&uuml;r die Fehlerfreiheit und Richtigkeit der Informationen nicht garantiert werden. Haftungsanspr&uuml;che schlie&szlig;en wir demzufolge vollst&auml;ndig aus.<br><br>
+	  
+	  
+	  DATENSCHUTZERKL&Auml;RUNG<br>
+	  
+	  Soweit nachstehend keine anderen Angaben gemacht werden, ist die Bereitstellung Ihrer personenbezogenen Daten weder gesetzlich oder vertraglich vorgeschrieben, noch f&uuml;r einen Vertragsabschluss erforderlich. Sie sind zur Bereitstellung der Daten nicht verpflichtet. Eine Nichtbereitstellung hat keine Folgen. Dies gilt nur soweit bei den nachfolgenden Verarbeitungsvorg&auml;ngen keine anderweitige Angabe gemacht wird.<br>
+	  
+	  „Personenbezogene Daten“ sind alle Informationen, die sich auf eine identifizierte oder identifizierbare nat&uuml;rliche Person beziehen.<br><br>
+	  
+	  SERVER-LOGFILES<br>
+	  
+	  Sie k&ouml;nnen unsere Webseiten besuchen, ohne Angaben zu Ihrer Person zu machen. Es werden bei jedem Zugriff auf unsere Website Nutzungsdaten durch Ihren Internetbrowser &uuml;bermittelt und in Protokolldaten (Server-Logfiles) gespeichert. Zu diesen gespeicherten Daten geh&ouml;ren z.B. Name der aufgerufenen Seite, Datum und Uhrzeit des Abrufs, &uuml;bertragene Datenmenge und der anfragende Provider. Diese Daten dienen ausschlie&szlig;lich der Gew&auml;hrleistung eines st&ouml;rungsfreien Betriebs unserer Website und zur Verbesserung unseres Angebotes. Eine Zuordnung dieser Daten zu einer bestimmten Person ist nicht m&ouml;glich.<br><br>
+	  
+	  ERHEBUNG UND VERARBEITUNG BEI NUTZUNG DES KONTAKTFORMULARS<br>
+	  
+	  Bei der Nutzung des Kontaktformulars erheben wir Ihre personenbezogenen Daten (Name, E-Mail-Adresse, Nachrichtentext) nur in dem von Ihnen zur Verf&uuml;gung gestellten Umfang. Die Datenverarbeitung dient dem Zweck der Kontaktaufnahme. Mit Absenden Ihrer Nachricht willigen Sie in die Verarbeitung der &uuml;bermittelten Daten ein. Die Verarbeitung erfolgt auf Grundlage des Art. 6 (1) lit. a DSGVO mit Ihrer Einwilligung.
+	  Sie k&ouml;nnen Ihre Einwilligung jederzeit durch Mitteilung an uns widerrufen, ohne dass die Rechtm&auml;&szlig;igkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung ber&uuml;hrt wird. Ihre E-Mail-Adresse nutzen wir nur zur Bearbeitung Ihrer Anfrage. Ihre Daten werden anschließend gel&ouml;scht, sofern Sie der weitergehenden Verarbeitung und Nutzung nicht zugestimmt haben.<br><br>
+	  
+	  COOKIES<br>
+	  
+	  Unsere Website verwendet Cookies. Cookies sind kleine Textdateien, die im Internetbrowser bzw. vom Internetbrowser auf dem Computersystem eines Nutzers gespeichert werden. Ruft ein Nutzer eine Website auf, so kann ein Cookie auf dem Betriebssystem des Nutzers gespeichert werden. Dieser Cookie enth&auml;lt eine charakteristische Zeichenfolge, die eine eindeutige Identifizierung des Browsers beim erneuten Aufrufen der Website erm&ouml;glicht. Wir setzen Cookies zu dem Zweck ein, unser Angebot nutzerfreundlicher, effektiver und sicherer zu machen. Des Weiteren erm&ouml;glichen Cookies unseren Systemen, Ihren Browser auch nach einem Seitenwechsel zu erkennen und Ihnen Services anzubieten. Einige Funktionen unserer Internetseite k&ouml;nnen ohne den Einsatz von Cookies nicht angeboten werden. F&uuml;r diese ist es erforderlich, dass der Browser auch nach einem Seitenwechsel wiedererkannt wird.<br>
+	  
+	  Wir verwenden auf unserer Website dar&uuml;ber hinaus Cookies zu dem Zweck, eine Analyse des Surfverhaltens unserer Seitenbesucher zu erm&ouml;glichen.<br>
+	  
+	  Die Verarbeitung erfolgt auf Grundlage des § 15 (3) TMG sowie Art. 6 (1) lit. f DSGVO aus dem berechtigten Interesse an den oben genannten Zwecken.
+	  Die auf diese Weise von Ihnen erhobenen Daten werden durch technische Vorkehrungen pseudonymisiert. Eine
+	  Zuordnung der Daten zu Ihrer Person ist daher nicht mehr m&ouml;glich. Die Daten werden nicht gemeinsam mit sonstigen personenbezogenen Daten von Ihnen gespeichert.
+	  Sie haben das Recht aus Gr&uuml;nden, die sich aus Ihrer besonderen Situation ergeben, jederzeit dieser auf Art. 6 (1) f DSGVO beruhenden Verarbeitung Sie betreffender personenbezogener Daten zu widersprechen.
+	  Cookies werden auf Ihrem Rechner gespeichert. Daher haben Sie die volle Kontrolle &uuml;ber die Verwendung von Cookies. Durch die Auswahl entsprechender technischer Einstellungen in Ihrem Internetbrowser k&ouml;nnen Sie die Speicherung der Cookies und &Uuml;bermittlung der enthaltenen Daten verhindern. Bereits gespeicherte Cookies k&ouml;nnen jederzeit gel&ouml;scht werden. Wir weisen Sie jedoch darauf hin, dass Sie dann gegebenenfalls nicht s&auml;mtliche Funktionen dieser Website vollumf&auml;nglich werden nutzen k&ouml;nnen.<br>
+	  Unter den nachstehenden Links k&ouml;nnen Sie sich informieren, wie Sie die Cookies bei den wichtigsten Browsern verwalten (u.a. auch deaktivieren) k&ouml;nnen:<br>
+	  Chrome Browser: https://support.google.com/accounts/answer/61416?hl=de<br>
+	  Internet Explorer: https://support.microsoft.com/de-de/help/17442/windows-internet-explorer-delete-manage-cookies<br>
+	  Mozilla Firefox: https://support.mozilla.org/de/kb/cookies-erlauben-und-ablehnen<br>
+	  Safari: https://support.apple.com/de-de/guide/safari/manage-cookies-and-website-data-sfri11471/mac<br><br>
+	  
+	  NUTZUNG VON GOOGLE ANALYTICS<br>
+	  
+	  Wir verwenden auf unserer Website den Webanalysedienst Google Analytics der Google Inc. (1600 Amphitheatre Parkway, Mountain View, CA 94043, USA; „Google“). Die Datenverarbeitung dient dem Zweck der Analyse dieser Website und ihrer Besucher. Dazu wird Google im Auftrag des Betreibers dieser Website die gewonnenen Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um Reports &uuml;ber die Websiteaktivit&auml;ten zusammenzustellen und um weitere, mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen gegen&uuml;ber dem Websitebetreiber zu erbringen. Die im Rahmen von Google Analytics von Ihrem Browser &uuml;bermittelte IP-Adresse wird nicht mit anderen Daten von Google zusammengef&uuml;hrt.<br>
+	  
+	  Google Analytics verwendet Cookies, die eine Analyse der Benutzung der Website durch Sie erm&ouml;glichen. Die durch die Cookies erzeugten Informationen &uuml;ber Ihre Benutzung dieser Website werden in der Regel an einen Server von Google in den USA &uuml;bertragen und dort gespeichert. Auf dieser Website ist die IP-Anonymisierung aktiviert. Dadurch wird Ihre IP-Adresse von Google innerhalb von Mitgliedstaaten der Europ&auml;ischen Union oder in anderen Vertragsstaaten des Abkommens &uuml;ber den Europ&auml;ischen Wirtschaftsraum zuvor gek&uuml;rzt. Nur in Ausnahmef&auml;llen wird die volle IP-Adresse an einen Server von Google in den USA &uuml;bertragen und dort gek&uuml;rzt. Ihre Daten werden gegebenenfalls in die USA &uuml;bermittelt. F&uuml;r Daten&uuml;bermittlungen in die USA ist ein Angemessenheitsbeschluss der Europ&auml;ischen Kommission vorhanden. Die Verarbeitung erfolgt auf Grundlage des Art. 6 (1) lit. f DSGVO aus dem berechtigten Interesse an der bedarfsgerechten und zielgerichteten Gestaltung der Website. Sie haben das Recht aus Gr&uuml;nden, die sich aus Ihrer besonderen Situation ergeben, jederzeit dieser auf Art. 6 (1) f DSGVO beruhenden Verarbeitung Sie betreffender personenbezogener Daten zu widersprechen.<br>
+	  
+	  Sie k&ouml;nnen dazu die Speicherung der Cookies durch die Auswahl entsprechender technischer Einstellungen Ihrer Browser-Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht s&auml;mtliche Funktionen dieser Website vollumf&auml;nglich werden nutzen k&ouml;nnen. Sie k&ouml;nnen des Weiteren die Erfassung der durch das Cookie erzeugten und auf Ihre Nutzung der Website bezogenen Daten (inkl. Ihrer IP-Adresse) an Google sowie die Verarbeitung dieser Daten durch Google verhindern, indem sie das unter dem folgenden Link verf&uuml;gbare Browser-Plug-in herunterladen und installieren [ https://tools.google.com/dlpage/gaoptout?hl=de]. Um die Erfassung durch Google Analytics ger&auml;te&uuml;bergreifend
+	  zu verhindern k&ouml;nnen Sie einen Opt-Out-Cookie setzen. Opt-Out-Cookies verhindern die zuk&uuml;nftige Erfassung Ihrer Daten beim Besuch dieser Website. Sie m&uuml;ssen das Opt-Out auf allen genutzten Systemen und Ger&auml;ten durchf&uuml;hren, damit dies umfassend wirkt. Wenn Sie hier klicken, wird das Opt-Out-Cookie gesetzt: Google Analytics deaktivieren.<br>
+	  
+	  N&auml;here Informationen zu Nutzungsbedingungen und Datenschutz finden Sie unter https://www.google.com/analytics/terms/de.html bzw. unter https://www.google.de/intl/de/policies/.<br><br>
+	  
+	  DAUER DER SPEICHERUNG<br>
+	  
+	  Nach vollst&auml;ndiger Vertragsabwicklung werden die Daten zun&auml;chst f&uuml;r die Dauer der Gew&auml;hrleistungsfrist, danach unter Ber&uuml;cksichtigung gesetzlicher, insbesondere steuer- und handelsrechtlicher Aufbewahrungsfristen gespeichert und dann nach Fristablauf gel&ouml;scht, sofern Sie der weitergehenden Verarbeitung und Nutzung nicht zugestimmt haben.<br><br>
+	  
+	  RECHTE DER BETROFFENEN PERSON<br>
+	  
+	  Ihnen stehen bei Vorliegen der gesetzlichen Voraussetzungen folgende Rechte nach Art. 15 bis 20 DSGVO zu: Recht auf Auskunft, auf Berichtigung, auf L&ouml;schung, auf Einschr&auml;nkung der Verarbeitung, auf Daten&uuml;bertragbarkeit.
+	  Außerdem steht Ihnen nach Art. 21 (1) DSGVO ein Widerspruchsrecht gegen die Verarbeitungen zu, die auf Art. 6 (1) f DSGVO beruhen, sowie gegen die Verarbeitung zum Zwecke von Direktwerbung.<br>
+	  
+	  Kontaktieren Sie uns auf Wunsch. Die Kontaktdaten finden Sie in unserem Impressum.<br><br>
+	  
+	  BESCHWERDERECHT BEI DER AUFSICHTSBEH&Ouml;RDE<br>
+	  
+	  Sie haben gem&auml;&szlig; Art. 77 DSGVO das Recht, sich bei der Aufsichtsbeh&ouml;rde zu beschweren, wenn Sie der Ansicht sind, dass die Verarbeitung Ihrer personenbezogenen Daten nicht rechtm&auml;&szlig;ig erfolgt.<br>
+	  
+	  letzte Aktualisierung: 07.10.2018</p><br><br><br><br><br>
+		</div>
+	  </div>
+<!-- #endregion -->
+
+		<div id="openModal" style="font-size: 1em; color:rgba(100,100,100,.7); font-family: 'Courier New', Courier, monospace; text-align: center;cursor:pointer;">IMPRESSUM</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script>
+$(document).ready(function() {
+	
+	var hcLoad = false;
+	if(document.getElementById("wedding").offsetTop <= document.body.scrollTop + window.innerHeight + 200) {
+		$("#hc").load("hochzeitscontainer.html");
+		hcLoad = true;
+	}
+	var pcLoad = false;
+	if(document.getElementById("paar").offsetTop <= document.body.scrollTop + window.innerHeight + 200) {
+		$("#pc").load("paarcontainer.html");
+		hcLoad = true;
+	}
+	var ecLoad = false;
+	if(document.getElementById("einzel").offsetTop <= document.body.scrollTop + window.innerHeight + 200) {
+		$("#ec").load("einzelcontainer.html");
+		ecLoad = true;
+	}
+	var mcLoad = false;
+	if(document.getElementById("manipulation").offsetTop <= document.body.scrollTop + window.innerHeight + 200) {
+		$("#mc").load("manipulationscontainer.html");
+		mcLoad = true;
+	}
+	var dcLoad = false;
+	if(document.getElementById("deutschland").offsetTop <= document.body.scrollTop + window.innerHeight + 200) {
+		$("#dc").load("deutschlandcontainer.html");
+		dcLoad = true;
+	}
+	var kcLoad = false;
+	if(document.getElementById("kanada").offsetTop <= document.body.scrollTop + window.innerHeight + 200) {
+		$("#kc").load("kanadacontainer.html");
+		kcLoad = true;
+	}
+	var encLoad = false;
+	if(document.getElementById("england").offsetTop <= document.body.scrollTop + window.innerHeight + 200) {
+		$("#enc").load("englandcontainer.html");
+		encLoad = true;
+	}
+
+	window.onscroll = function() {
+		if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+			document.getElementById("goUp").style.display = "block";
+  		} else {
+			document.getElementById("goUp").style.display = "none";		
+		}
+		//console.log(document.getElementById("wedding").offsetTop);
+		//console.log(document.body.scrollTop);
+		//console.log(document.body.scrollTop + window.innerHeight);
+		if(!hcLoad && document.getElementById("wedding").offsetTop <= document.body.scrollTop + window.innerHeight + 200) {
+			$("#hc").load("hochzeitscontainer.html");
+			hcLoad = true;
+		}
+		if(!pcLoad && document.getElementById("paar").offsetTop <= document.body.scrollTop + window.innerHeight + 200) {
+		 $("#pc").load("paarcontainer.html");
+		 pcLoad = true;
+		}
+		if(!ecLoad && document.getElementById("einzel").offsetTop <= document.body.scrollTop + window.innerHeight + 200) {
+		 $("#ec").load("einzelcontainer.html");
+		 ecLoad = true;
+		}
+		if(!mcLoad && document.getElementById("manipulation").offsetTop <= document.body.scrollTop + window.innerHeight + 200) {
+			$("#mc").load("manipulationscontainer.html");
+			mcLoad = true;
+		}
+		if(!dcLoad && document.getElementById("deutschland").offsetTop <= document.body.scrollTop + window.innerHeight + 200) {
+			$("#dc").load("deutschlandcontainer.html");
+			dcLoad = true;
+		}
+		if(!kcLoad && document.getElementById("kanada").offsetTop <= document.body.scrollTop + window.innerHeight + 200) {
+			$("#kc").load("kanadacontainer.html");
+			kcLoad = true;
+		}
+		if(!encLoad && document.getElementById("england").offsetTop <= document.body.scrollTop + window.innerHeight + 200) {
+			$("#enc").load("englandcontainer.html");
+			encLoad = true;
+		}
+	};
+		var scrollink = $('.scroll');
+		//Smooth scrolling
+		scrollink.click(function(e) {
+			e.preventDefault();
+			if (!hcLoad) $("#hc").load("hochzeitscontainer.html");
+			if (!ecLoad) $("#ec").load("einzelcontainer.html");
+			if (!mcLoad) $("#mc").load("manipulationscontainer.html");
+			if (!dcLoad) $("#dc").load("deutschlandcontainer.html");
+			if (!kcLoad) $("#kc").load("kanadacontainer.html");
+			if (!encLoad) $("#enc").load("englandcontainer.html");
+			
+			$('body,html').animate({
+				scrollTop: $(this.hash).offset().top
+			}, 2000);
+		});
+
+		// Get the modal
+		var modal = document.getElementById("myModal");
+		var aboutModal = document.getElementById("aboutModal");
+
+		// Get the button that opens the modal
+		var modalButton = document.getElementById("openModal");
+		var aboutButton = document.getElementById("aboutMe")
+		var spanClose = document.getElementsByClassName("close")[0];
+		var spanClose2 = document.getElementsByClassName("close2")[0];
+
+		modalButton.onclick = function() {
+			modal.style.display = "block";
+		}
+		aboutButton.onclick = function() {
+			aboutModal.style.display = "block";
+		}
+		spanClose.onclick = function() {
+			modal.style.display = "none";
+		}
+		spanClose2.onclick = function() {
+			aboutModal.style.display = "none";
+		}
+
+		window.onclick = function(event) {
+			if (event.target == modal) {
+				modal.style.display = "none";
+			}
+			else if (event.target == aboutModal) {
+				aboutModal.style.display = "none";
+			}
+	    }
+	})
+
+	
+
+</script>
+</body>
+</html>
